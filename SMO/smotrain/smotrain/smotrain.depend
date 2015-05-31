@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1433009907 source:c:\users\owner\desktop\svm\smo\smotrain\smotrain\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+	<float.h>
+	<getopt.h>
+	<string.h>
+	"initializeTraining.h"
+	"learn.h"
+	"result.h"
+
+1433024253 source:c:\users\owner\desktop\svm\smo\smotrain\smotrain\result.c
+	<stdio.h>
+	<math.h>
+	<float.h>
+	"initializeTraining.h"
+	"learn.h"
+	"result.h"
+
+1433009991 c:\users\owner\desktop\svm\smo\smotrain\smotrain\initializetraining.h
+
+1433010680 c:\users\owner\desktop\svm\smo\smotrain\smotrain\learn.h
+
+1433017139 c:\users\owner\desktop\svm\smo\smotrain\smotrain\result.h
+
+1433017012 source:c:\users\owner\desktop\svm\smo\smotrain\smotrain\utility.c
+	<stdio.h>
+
+1433016452 source:c:\users\owner\desktop\svm\smo\smotrain\smotrain\learn.c
+	<stdio.h>
+	<stdlib.h>
+	<float.h>
+	<math.h>
+	<time.h>
+	<limits.h>
+	<ctype.h>
+	"initializeTraining.h"
+	"utility.h"
+	"learn.h"
+
+1433016741 c:\users\owner\desktop\svm\smo\smotrain\smotrain\utility.h
+
+1433010610 source:c:\users\owner\desktop\svm\smo\smotrain\smotrain\initializetraining.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+	<float.h>
+	"initializeTraining.h"
+

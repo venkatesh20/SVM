@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.bss=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.data=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.data1=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.fixup=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.rodata=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.rodata1=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.sbss=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.sbss2=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.sdata=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.sdata2=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:.text=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:Heap=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:Stack=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.smo_linear_test\:Stack-size=1024
+eclipse.preferences.version=1

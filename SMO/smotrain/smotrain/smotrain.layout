@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="initializeTraining.c" open="1" top="0" tabpos="6">
+		<Cursor position="8564" topLine="258" />
+	</File>
+	<File name="initializeTraining.h" open="1" top="0" tabpos="7">
+		<Cursor position="605" topLine="24" />
+	</File>
+	<File name="learn.c" open="1" top="0" tabpos="5">
+		<Cursor position="22169" topLine="590" />
+	</File>
+	<File name="learn.h" open="1" top="0" tabpos="8">
+		<Cursor position="303" topLine="9" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="95" topLine="0" />
+	</File>
+	<File name="result.c" open="1" top="1" tabpos="2">
+		<Cursor position="201" topLine="83" />
+	</File>
+	<File name="result.h" open="1" top="0" tabpos="9">
+		<Cursor position="170" topLine="2" />
+	</File>
+	<File name="utility.c" open="1" top="0" tabpos="4">
+		<Cursor position="2735" topLine="112" />
+	</File>
+	<File name="utility.h" open="1" top="0" tabpos="3">
+		<Cursor position="143" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

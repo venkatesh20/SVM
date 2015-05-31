@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:18.050-0400" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'synth_top/output' to 'synth_top/output_r' to avoid the conflict with HDL keywords or other object names." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:17.538-0400" type="Warning"/>
+        <logs message="@W [XFORM-542] Cannot flatten a loop nest 'RBF_INNER_FOR_LOOP' (classify.c:170:54) in function 'classifyRbf' : &#xD;&#xA;               more than one sub loop." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:16.439-0400" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'dotProduct_while' (classify.c:47) in function 'classifyRbf' completely: variable loop bound." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.404-0400" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'dotProduct_while' (classify.c:47) in function 'classifyRbf' completely: variable loop bound." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.373-0400" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'dotProduct_while' (classify.c:47) in function 'classifyRbf' completely: variable loop bound." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.359-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'LINEAR_FOR_LOOP' (classify.c:101:1) in function 'classifyLinear'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.350-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_OUTER_FOR_LOOP' (classify.c:131:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.341-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 17 for loop 'POLY_INNER_FOR_LOOP' (classify.c:133:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.332-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop upper bound from 50 to 17 for loop 'POLY_INNER_FOR_LOOP' (classify.c:133:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.307-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_INIT_FOR_LOOP' (classify.c:127:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.287-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'RBF_OUTER_FOR_LOOP' (classify.c:170:1) in function 'classifyRbf'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.277-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 17 for loop 'RBF_INNER_FOR_LOOP' (classify.c:171:1) in function 'classifyRbf'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.262-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'RBF_INIT_FOR_LOOP' (classify.c:166:1) in function 'classifyRbf'." projectName="smosynth.prj" solutionName="solution3" date="2015-05-22T15:27:15.253-0400" type="Warning"/>
+        <logs message="@W [SCHED-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:06.607-0400" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'synth_top/output' to 'synth_top/output_r' to avoid the conflict with HDL keywords or other object names." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:06.419-0400" type="Warning"/>
+        <logs message="@W [XFORM-542] Cannot flatten a loop nest 'POLY_INNER_FOR_LOOP' (classify.c:135:49) in function 'classifyPoly' : &#xD;&#xA;               the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:05.760-0400" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'dotProduct_while' (classify.c:47) in function 'classifyPoly' completely: variable loop bound." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:05.134-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'LINEAR_FOR_LOOP' (classify.c:104:1) in function 'classifyLinear'." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:05.118-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_OUTER_FOR_LOOP' (classify.c:134:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:05.093-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_INNER_FOR_LOOP' (classify.c:136:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:05.070-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_INIT_FOR_LOOP' (classify.c:130:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution2" date="2015-05-22T00:37:04.978-0400" type="Warning"/>
+        <logs message="@W [SCHED-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:31.446-0400" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'synth_top/output' to 'synth_top/output_r' to avoid the conflict with HDL keywords or other object names." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:30.533-0400" type="Warning"/>
+        <logs message="@W [XFORM-542] Cannot flatten a loop nest 'LINEAR_FOR_LOOP' (classify.c:103:42) in function 'classifyLinear' : &#xD;&#xA;               the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:30.462-0400" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'wtDotProduct_while' (classify.c:21) in function 'classifyLinear' completely: variable loop bound." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:28.945-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'LINEAR_FOR_LOOP' (classify.c:104:1) in function 'classifyLinear'." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:28.879-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_OUTER_FOR_LOOP' (classify.c:134:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:28.856-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 37 for loop 'POLY_INNER_FOR_LOOP' (classify.c:136:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:28.850-0400" type="Warning"/>
+        <logs message="@W [XFORM-561] Updating loop lower bound from 1 to 50 for loop 'POLY_INIT_FOR_LOOP' (classify.c:130:1) in function 'classifyPoly'." projectName="smosynth.prj" solutionName="solution1" date="2015-05-21T18:38:28.844-0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

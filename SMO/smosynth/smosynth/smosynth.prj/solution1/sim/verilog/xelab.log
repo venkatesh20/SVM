@@ -1,0 +1,1122 @@
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_synth_top_top -prj synth_top.prj --lib ieee_proposed=./ieee_proposed -s synth_top 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_0_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_0_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_0_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_0_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_1_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_1_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_1_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_1_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_2_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_2_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_2_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_2_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_3_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_3_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_example_3_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_example_3_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_lambda.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_lambda
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_nonZeroFeature.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_nonZeroFeature
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_output_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_r
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_svNonZeroFeature.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_svNonZeroFeature
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_0_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_0_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_0_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_0_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_1_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_1_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_1_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_1_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_2_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_2_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_2_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_2_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_3_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_3_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_sv_3_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sv_3_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/AESL_automem_weight.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_weight
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_synth_top_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_classifyLinear.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_classifyLinear
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_classifyPoly.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_classifyPoly
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_dadd_64ns_64ns_64_5_full_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_dadd_64ns_64ns_64_5_full_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_dexp_64ns_64ns_64_18_full_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_dexp_64ns_64ns_64_18_full_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_dlog_64ns_64ns_64_31_full_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_dlog_64ns_64ns_64_31_full_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_dmul_64ns_64ns_64_6_max_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_dmul_64ns_64ns_64_6_max_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_dotProduct.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_dotProduct
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_fadd_32ns_32ns_32_5_full_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_fadd_32ns_32ns_32_5_full_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_fmul_32ns_32ns_32_4_max_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_fmul_32ns_32ns_32_4_max_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_fpext_32ns_64_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_fpext_32ns_64_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_fptrunc_64ns_32_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_fptrunc_64ns_32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/synth_top_writeResult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_writeResult
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_utils_v3_0/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/axi_utils_v2_0/axi_utils_v2_0_vh_rfs.vhd" into library axi_utils_v2_0
+INFO: [VRFC 10-307] analyzing entity glb_srl_fifo
+INFO: [VRFC 10-307] analyzing entity glb_ifx_slave
+INFO: [VRFC 10-307] analyzing entity glb_ifx_master
+INFO: [VRFC 10-307] analyzing entity axi_slave_2to1
+INFO: [VRFC 10-307] analyzing entity axi_slave_3to1
+INFO: [VRFC 10-307] analyzing entity axi_slave_4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0
+INFO: [VRFC 10-307] analyzing entity op_resize
+INFO: [VRFC 10-307] analyzing entity delay_line
+INFO: [VRFC 10-307] analyzing entity cc_compare
+INFO: [VRFC 10-307] analyzing entity luts
+INFO: [VRFC 10-307] analyzing entity mult18
+INFO: [VRFC 10-307] analyzing entity dsp
+INFO: [VRFC 10-307] analyzing entity hybrid
+INFO: [VRFC 10-307] analyzing entity ccm_dist_mem
+INFO: [VRFC 10-307] analyzing entity ccm_sp_block_mem
+INFO: [VRFC 10-307] analyzing entity ccm_dp_block_mem
+INFO: [VRFC 10-307] analyzing entity ccm_syncmem
+INFO: [VRFC 10-307] analyzing entity ccm_scaled_adder
+INFO: [VRFC 10-307] analyzing entity ccm_operation
+INFO: [VRFC 10-307] analyzing entity ccm
+INFO: [VRFC 10-307] analyzing entity three_input_adder
+INFO: [VRFC 10-307] analyzing entity multmxn_lut6
+INFO: [VRFC 10-307] analyzing entity mult_gen_v12_0_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_pipe_v3_0_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_dsp48_wrapper_v3_0/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48a_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48a1_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e2_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_wrapper_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_dsp48_addsub_v3_0/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_rtl
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_synth
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_v3_0_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd" into library floating_point_v7_0
+INFO: [VRFC 10-307] analyzing entity fdgS
+INFO: [VRFC 10-307] analyzing entity fdgW
+INFO: [VRFC 10-307] analyzing entity lutV
+INFO: [VRFC 10-307] analyzing entity lutS
+INFO: [VRFC 10-307] analyzing entity lutN
+INFO: [VRFC 10-307] analyzing entity lutNMuxS
+INFO: [VRFC 10-307] analyzing entity srl16eS
+INFO: [VRFC 10-307] analyzing entity delayS
+INFO: [VRFC 10-307] analyzing entity andW
+INFO: [VRFC 10-307] analyzing entity orW
+INFO: [VRFC 10-307] analyzing entity srl16ew
+INFO: [VRFC 10-307] analyzing entity delayW
+INFO: [VRFC 10-307] analyzing entity compW
+INFO: [VRFC 10-307] analyzing entity addSubW
+INFO: [VRFC 10-307] analyzing entity equalW
+INFO: [VRFC 10-307] analyzing entity addW
+INFO: [VRFC 10-307] analyzing entity mult18
+INFO: [VRFC 10-307] analyzing entity cntrlgen
+INFO: [VRFC 10-307] analyzing entity cntrlgen2
+INFO: [VRFC 10-307] analyzing entity ppGenR8
+INFO: [VRFC 10-307] analyzing entity ppGenR8Msb2
+INFO: [VRFC 10-307] analyzing entity addSubShGW
+INFO: [VRFC 10-307] analyzing entity addSubShFW
+INFO: [VRFC 10-307] analyzing entity vmRoundW
+INFO: [VRFC 10-307] analyzing entity vmsMultCore
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult4
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult16
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult
+INFO: [VRFC 10-307] analyzing entity dsp48MultALine
+INFO: [VRFC 10-307] analyzing entity dsp48Mult
+INFO: [VRFC 10-307] analyzing entity xMult
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity delay_s
+INFO: [VRFC 10-307] analyzing entity mux_bus2
+INFO: [VRFC 10-307] analyzing entity twos_comp
+INFO: [VRFC 10-307] analyzing entity carry_chain
+INFO: [VRFC 10-307] analyzing entity mux4
+INFO: [VRFC 10-307] analyzing entity compare_gt
+INFO: [VRFC 10-307] analyzing entity compare_eq_im
+INFO: [VRFC 10-307] analyzing entity compare_ne_im
+INFO: [VRFC 10-307] analyzing entity compare_eq
+INFO: [VRFC 10-307] analyzing entity compare
+INFO: [VRFC 10-307] analyzing entity special_detect
+INFO: [VRFC 10-307] analyzing entity norm_zero_det
+INFO: [VRFC 10-307] analyzing entity zero_det_sel
+INFO: [VRFC 10-307] analyzing entity shift_msb_first
+INFO: [VRFC 10-307] analyzing entity flt_dec_op
+INFO: [VRFC 10-307] analyzing entity flt_dec_op_lat
+INFO: [VRFC 10-307] analyzing entity lead_zero_encode
+INFO: [VRFC 10-307] analyzing entity lead_zero_encode_shift
+INFO: [VRFC 10-307] analyzing entity dsp48e1_wrapper
+INFO: [VRFC 10-307] analyzing entity dsp48e2_wrapper
+INFO: [VRFC 10-307] analyzing entity addsub_logic
+INFO: [VRFC 10-307] analyzing entity addsub_dsp
+INFO: [VRFC 10-307] analyzing entity addsub
+INFO: [VRFC 10-307] analyzing entity flt_round_bit
+INFO: [VRFC 10-307] analyzing entity renorm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity norm_and_round_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity norm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity alignment
+INFO: [VRFC 10-307] analyzing entity normalize
+INFO: [VRFC 10-307] analyzing entity align_add_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity align_add
+INFO: [VRFC 10-307] analyzing entity multadd
+INFO: [VRFC 10-307] analyzing entity compare_ge
+INFO: [VRFC 10-307] analyzing entity fix_to_flt_conv_exp
+INFO: [VRFC 10-307] analyzing entity fix_to_flt_conv
+INFO: [VRFC 10-307] analyzing entity flt_to_fix_conv
+INFO: [VRFC 10-307] analyzing entity flt_to_flt_conv_exp
+INFO: [VRFC 10-307] analyzing entity flt_to_flt_conv
+INFO: [VRFC 10-307] analyzing entity fp_cmp
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_mant_addsub
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_mant
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_exp
+INFO: [VRFC 10-307] analyzing entity flt_sqrt
+INFO: [VRFC 10-307] analyzing entity flt_div_mant_addsub
+INFO: [VRFC 10-307] analyzing entity flt_div_mant
+INFO: [VRFC 10-307] analyzing entity flt_div_exp
+INFO: [VRFC 10-307] analyzing entity flt_div
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_lat_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e2_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_qq
+INFO: [VRFC 10-307] analyzing entity fix_mult_xx
+INFO: [VRFC 10-307] analyzing entity fix_mult
+INFO: [VRFC 10-307] analyzing entity flt_round_dsp_opt_full
+INFO: [VRFC 10-307] analyzing entity flt_round_dsp_opt_part
+INFO: [VRFC 10-307] analyzing entity flt_mult_round
+INFO: [VRFC 10-307] analyzing entity flt_mult_exp
+INFO: [VRFC 10-307] analyzing entity flt_mult
+INFO: [VRFC 10-307] analyzing entity flt_add_exp
+INFO: [VRFC 10-307] analyzing entity flt_add_logic
+INFO: [VRFC 10-307] analyzing entity flt_add_dsp
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_align_add
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_norm
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_exp
+INFO: [VRFC 10-307] analyzing entity flt_add_lat
+INFO: [VRFC 10-307] analyzing entity flt_add
+INFO: [VRFC 10-307] analyzing entity flt_recip_approx
+INFO: [VRFC 10-307] analyzing entity flt_recip_nr
+INFO: [VRFC 10-307] analyzing entity flt_recip_reduction_calc
+INFO: [VRFC 10-307] analyzing entity flt_recip_eval
+INFO: [VRFC 10-307] analyzing entity flt_recip_postprocess
+INFO: [VRFC 10-307] analyzing entity flt_recip_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_recip_recomb
+INFO: [VRFC 10-307] analyzing entity flt_recipsqrt_dp_m_calc
+INFO: [VRFC 10-307] analyzing entity flt_recip
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub_taylor_fabric
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub_taylor_combiner_fabric
+INFO: [VRFC 10-307] analyzing entity flt_log_single_one_detect
+INFO: [VRFC 10-307] analyzing entity flt_log_inproc
+INFO: [VRFC 10-307] analyzing entity flt_log_exp
+INFO: [VRFC 10-307] analyzing entity flt_log_L_block_memory
+INFO: [VRFC 10-307] analyzing entity flt_pt_log_L_block
+INFO: [VRFC 10-307] analyzing entity flt_log_rr_mul_iter
+INFO: [VRFC 10-307] analyzing entity flt_log_rr_mul
+INFO: [VRFC 10-307] analyzing entity flt_log_rr
+INFO: [VRFC 10-307] analyzing entity flt_log_taylor
+INFO: [VRFC 10-307] analyzing entity flt_log_shift_msb_first
+INFO: [VRFC 10-307] analyzing entity flt_log_lead_zero_encode
+INFO: [VRFC 10-307] analyzing entity flt_log_normalize
+INFO: [VRFC 10-307] analyzing entity flt_log_norm
+INFO: [VRFC 10-307] analyzing entity flt_log_rnd
+INFO: [VRFC 10-307] analyzing entity flt_log_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_log_recomb
+INFO: [VRFC 10-307] analyzing entity flt_log
+INFO: [VRFC 10-307] analyzing entity flt_exp_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_exp_recomb
+INFO: [VRFC 10-307] analyzing entity flt_exp_ccm
+INFO: [VRFC 10-307] analyzing entity flt_exp_e2A
+INFO: [VRFC 10-307] analyzing entity flt_exp_dp_poly
+INFO: [VRFC 10-307] analyzing entity flt_exp_e2zmzm1
+INFO: [VRFC 10-307] analyzing entity flt_exp
+INFO: [VRFC 10-307] analyzing entity flt_fma_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_fma_round_bit
+INFO: [VRFC 10-307] analyzing entity flt_fma_renorm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_special_detect
+INFO: [VRFC 10-307] analyzing entity flt_fma_add_exp
+INFO: [VRFC 10-307] analyzing entity flt_fma_alignment
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub_dsp1
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub_dsp2
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub
+INFO: [VRFC 10-307] analyzing entity flt_fma_align_add
+INFO: [VRFC 10-307] analyzing entity flt_fma_norm_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_add_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_add
+INFO: [VRFC 10-307] analyzing entity flt_fma_mul
+INFO: [VRFC 10-307] analyzing entity flt_fma
+INFO: [VRFC 10-307] analyzing entity flt_accum_flt_to_fix
+INFO: [VRFC 10-307] analyzing entity flt_accum_bit_encode
+INFO: [VRFC 10-307] analyzing entity flt_accum
+INFO: [VRFC 10-307] analyzing entity floating_point_v7_0_viv
+INFO: [VRFC 10-307] analyzing entity floating_point_v7_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0.vhd" into library xbip_pipe_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_pipe_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_dsp48_addsub_v3_0/xbip_dsp48_addsub_v3_0.vhd" into library xbip_dsp48_addsub_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_bram18k_v3_0/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_synth
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_rtl
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_v3_0_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_bram18k_v3_0/xbip_bram18k_v3_0.vhd" into library xbip_bram18k_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0.vhd" into library mult_gen_v12_0
+INFO: [VRFC 10-307] analyzing entity mult_gen_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dadd_3_full_dsp_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_dadd_3_full_dsp_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dexp_16_full_dsp_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_dexp_16_full_dsp_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dlog_29_full_dsp_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_dlog_29_full_dsp_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dmul_4_max_dsp_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_dmul_4_max_dsp_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fadd_3_full_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_fadd_3_full_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fmul_2_max_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_fmul_2_max_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fpext_0_no_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_fpext_0_no_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fptrunc_0_no_dsp_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synth_top_ap_fptrunc_0_no_dsp_64
+Starting static elaboration
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fptrunc_0_no_dsp_64.vhd:181]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fpext_0_no_dsp_32.vhd:181]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:29980]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:29980]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dadd_3_full_dsp_64.vhd:189]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dmul_4_max_dsp_64.vhd:189]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fadd_3_full_dsp_32.vhd:189]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_fmul_2_max_dsp_32.vhd:189]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:31642]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2643]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:17429]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:66028]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2292]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [#UNDEF] Warning: "NUMERIC_STD.TO_SIGNED: vector truncated" [/proj/xhdhdstaff/saikatb/verific_integ/data/vhdl/src/ieee/distributable/numeric_std.vhd:3418]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dlog_29_full_dsp_64.vhd:185]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [#UNDEF] Note: "in get_registers " [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12544]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:83680]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13942]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:70806]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:70938]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:12433]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:70806]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:70938]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:72548]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:71179]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/mult_gen_v12_0/mult_gen_v12_0_vh_rfs.vhd:2307]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:14129]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xbip_pipe_v3_0/xbip_pipe_v3_0_vh_rfs.vhd:427]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/floating_point_v7_0/floating_point_v7_0_vh_rfs.vhd:13391]
+WARNING: [VRFC 10-982] library name floating_point_v7_0 of instantiated unit conflicts with visible identifier [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/verilog/ip/xil_defaultlib/synth_top_ap_dexp_16_full_dsp_64.vhd:185]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package floating_point_v7_0.floating_point_v7_0_viv_comp
+Compiling package std.textio
+Compiling package xbip_utils_v3_0.xbip_utils_v3_0_pkg
+Compiling package axi_utils_v2_0.axi_utils_v2_0_pkg
+Compiling package floating_point_v7_0.floating_point_v7_0_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_0.floating_point_v7_0_exp_table_pk...
+Compiling package mult_gen_v12_0.mult_gen_v12_0_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_0.floating_point_v7_0_pkg
+Compiling package floating_point_v7_0.flt_utils
+Compiling package unisim.vcomponents
+Compiling package xbip_pipe_v3_0.xbip_pipe_v3_0_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_unsigned
+Compiling package floating_point_v7_0.floating_point_v7_0_table_pkg
+Compiling package floating_point_v7_0.flt_log_l_block_pkg
+Compiling package mult_gen_v12_0.dsp_pkg
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(5,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",5,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_ne_im [\compare_ne_im("zynq",28,others ...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(24,0,false,false)\]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(12,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",12,0,0,false...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",8,0,0,false,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(14,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(25,0,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(3,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",1,0,0,false,...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_round_bit [\flt_round_bit("zynq",false,fals...]
+Compiling architecture rtl of entity floating_point_v7_0.renorm_and_round_logic [\renorm_and_round_logic("zynq",(...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,0,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(8,0,false,false)\]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(9,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("no_family",9,0,0,f...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("no_family",52,ot...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,0,false,true)\]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("no_family",fals...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,0,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_to_flt_conv_exp [\flt_to_flt_conv_exp(64,11,53,32...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op [\flt_dec_op("zynq",32,24,false,0...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_to_flt_conv [\flt_to_flt_conv("zynq",64,53,32...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(32,0,false,false)\]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_fptrunc_0_no_dsp_64_arch of entity xil_defaultlib.synth_top_ap_fptrunc_0_no_dsp_64 [synth_top_ap_fptrunc_0_no_dsp_64...]
+Compiling module xil_defaultlib.synth_top_fptrunc_64ns_32_1(ID=1...
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(23,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("no_family",4,0,0,f...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("no_family",23,ot...]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("no_family",fals...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_to_flt_conv_exp [\flt_to_flt_conv_exp(32,8,24,64,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op [\flt_dec_op("zynq",64,53,false,0...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_to_flt_conv [\flt_to_flt_conv("zynq",32,24,64...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(64,0,false,false)\]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_fpext_0_no_dsp_32_arch of entity xil_defaultlib.synth_top_ap_fpext_0_no_dsp_32 [synth_top_ap_fpext_0_no_dsp_32_d...]
+Compiling module xil_defaultlib.synth_top_fpext_32ns_64_1
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(52,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(3,0,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(54,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,0,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(16,0,false,false)\]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",14,0,0,true,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",56,others ...]
+Compiling architecture rtl of entity floating_point_v7_0.zero_det_sel [\zero_det_sel("zynq",false,55,55...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(55,0,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.shift_msb_first [\shift_msb_first(54,55,6,false,f...]
+Compiling architecture rtl of entity floating_point_v7_0.alignment [\alignment("zynq",53,54,55,11,14...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,1,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(47,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(7,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(30,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(18,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(25,0,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,16,25,16,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(48,0,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(9,1,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",9,1,0,false,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(56,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.addsub_dsp [\addsub_dsp("zynq",2,(false,true...]
+Compiling architecture rtl of entity floating_point_v7_0.addsub [\addsub("zynq",2,(false,true,fal...]
+Compiling architecture rtl of entity floating_point_v7_0.align_add [\align_add("zynq",2,53,12,14,0,(...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",6,0,0,true,t...]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",8,true,0)(1,4)\]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",4,true,0)(1,4)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,1,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",2,true,0)(1,4)\]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",1,true,0)(1,4)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(8,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",8,0,0,true,t...]
+Compiling architecture rtl of entity floating_point_v7_0.lead_zero_encode [\lead_zero_encode("zynq",false,1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(56,1,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.shift_msb_first [\shift_msb_first(56,58,11,false,...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(2,18,48,25,48,f...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(19,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",19,0,0,false...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(28,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(29,0,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.renorm_and_round_logic [\renorm_and_round_logic("zynq",(...]
+Compiling architecture rtl of entity floating_point_v7_0.norm_and_round_logic [\norm_and_round_logic("zynq",2,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,2,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(12,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",12,0,0,false...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(12,2,false,false)\]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE('0','0','0','0')\]
+Compiling architecture fde_v of entity unisim.FDE [\FDE('0')\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",9,0,1,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",52,others ...]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("zynq",false,64,...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",16,0,1,false...]
+Compiling architecture synth of entity floating_point_v7_0.compare_gt [\compare_gt("zynq",32,false,1)(1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",11,0,1,false...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq [\compare_eq("zynq",32,false,1)(1...]
+Compiling architecture synth of entity floating_point_v7_0.compare [\compare("zynq",64,true,1)(1,4)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(12,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,2,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,2,false,true)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add_exp [\flt_add_exp("zynq",64,11,53,(-2...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op [\flt_dec_op("zynq",64,53,false,1...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add_logic [\flt_add_logic("zynq",2,64,53,64...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add [\flt_add("zynq",1,0,0,0,64,53,64...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",1,0,...]
+Compiling architecture synth_top_ap_dadd_3_full_dsp_64_arch of entity xil_defaultlib.synth_top_ap_dadd_3_full_dsp_64 [synth_top_ap_dadd_3_full_dsp_64_...]
+Compiling module xil_defaultlib.synth_top_dadd_64ns_64ns_64_5_fu...
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,2,16,25,21,f...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(17,0,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(17,17,16,25,17,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(17,17,16,25,16,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(17,17,16,25,17,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(17,17,16,25,16,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,17,16,25,16,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,17,16,25,17,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,17,16,25,16,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(2,0,0,2,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,17,16,25,17,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(17,1,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(19,17,16,25,38,...]
+Compiling architecture struct of entity floating_point_v7_0.fix_mult_dsp48e1_dbl [\fix_mult_dsp48e1_dbl(3,(false,f...]
+Compiling architecture rtl of entity floating_point_v7_0.fix_mult [\fix_mult("zynq",flt_pt_fix_mult...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",11,0,0,false...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",9,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",52,others ...]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("zynq",false,64,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,3,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,3,false,true)\]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,3,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,3,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,3,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult_exp [\flt_mult_exp("zynq",false,64,11...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(54,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",3,0,0,false,...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_round_bit [\flt_round_bit("zynq",false,fals...]
+Compiling architecture rtl of entity floating_point_v7_0.renorm_and_round_logic [\renorm_and_round_logic("zynq",(...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult_round [\flt_mult_round("zynq",(flt_pt_i...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op_lat [\flt_dec_op_lat("zynq",64,53,tru...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult [\flt_mult("zynq",1,3,64,53,64,53...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(4,1,0,0,0,0,...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_dmul_4_max_dsp_64_arch of entity xil_defaultlib.synth_top_ap_dmul_4_max_dsp_64 [synth_top_ap_dmul_4_max_dsp_64_d...]
+Compiling module xil_defaultlib.synth_top_dmul_64ns_64ns_64_6_ma...
+Compiling module xil_defaultlib.synth_top_dotProduct
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",7,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",14,others ...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",1,0,0,false,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(24,0,false,true)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(24,16,48,25,40,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(13,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(27,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.align_add_dsp48e1_sgl [\align_add_dsp48e1_sgl("zynq",24...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0000000000000000111111110...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0000000000000000000000001...]
+Compiling architecture rtl of entity floating_point_v7_0.lead_zero_encode_shift [\lead_zero_encode_shift(24,8,(fa...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(24,16,48,25,35,...]
+Compiling architecture rtl of entity floating_point_v7_0.norm_and_round_dsp48e1_sgl [\norm_and_round_dsp48e1_sgl(24,8...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(23,1,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",9,0,0,false,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(9,0,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(10,1,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",4,0,1,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",23,others ...]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("zynq",false,32,...]
+Compiling architecture synth of entity floating_point_v7_0.compare [\compare("zynq",32,true,1)(1,4)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(8,1,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add_exp [\flt_add_exp("zynq",32,8,24,(-21...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op [\flt_dec_op("zynq",32,24,false,1...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add_dsp [\flt_add_dsp("zynq",32,24,32,24,...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_add [\flt_add("zynq",1,0,0,0,32,24,32...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",1,0,...]
+Compiling architecture synth_top_ap_fadd_3_full_dsp_32_arch of entity xil_defaultlib.synth_top_ap_fadd_3_full_dsp_32 [synth_top_ap_fadd_3_full_dsp_32_...]
+Compiling module xil_defaultlib.synth_top_fadd_32ns_32ns_32_5_fu...
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(24,17,16,25,41,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(24,7,48,25,31,f...]
+Compiling architecture struct of entity floating_point_v7_0.fix_mult_dsp48e1_sgl [\fix_mult_dsp48e1_sgl((false,fal...]
+Compiling architecture rtl of entity floating_point_v7_0.fix_mult [\fix_mult("zynq",flt_pt_fix_mult...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",8,0,0,false,...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",4,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",23,others ...]
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("zynq",false,32,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,1,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,1,false,true)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult_exp [\flt_mult_exp("zynq",false,32,8,...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture struct of entity floating_point_v7_0.flt_round_dsp_opt_full [\flt_round_dsp_opt_full("zynq",(...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult_round [\flt_mult_round("zynq",(flt_pt_i...]
+Compiling architecture synth of entity floating_point_v7_0.flt_dec_op_lat [\flt_dec_op_lat("zynq",32,24,tru...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_mult [\flt_mult("zynq",1,3,32,24,32,24...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_fmul_2_max_dsp_32_arch of entity xil_defaultlib.synth_top_ap_fmul_2_max_dsp_32 [synth_top_ap_fmul_2_max_dsp_32_d...]
+Compiling module xil_defaultlib.synth_top_fmul_32ns_32ns_32_4_ma...
+Compiling architecture rtl of entity floating_point_v7_0.special_detect [\special_detect("zynq",true,64,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(27,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,27,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",4,0,1,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq [\compare_eq("zynq",11,true,1)(1,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(27,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,27,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(28,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,28,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_specialcase [\flt_log_specialcase("zynq",64,5...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("11001010")(0,7)\]
+Compiling architecture xilinx of entity floating_point_v7_0.mux_bus2 [\mux_bus2("zynq",54,0)(1,4)\]
+Compiling architecture xilinx of entity floating_point_v7_0.twos_comp [\twos_comp(54,1,1,0)\]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq [\compare_eq("zynq",27,false,1)(1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(54,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(26,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(5,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",5,0,0,true,t...]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",4,true,1)(1,4)\]
+Compiling architecture rtl of entity floating_point_v7_0.lead_zero_encode [\lead_zero_encode("zynq",false,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(26,1,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_single_one_detect [\flt_log_single_one_detect(26,5,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(5,1,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_inproc [\flt_log_inproc("zynq",2,64,53,1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(25,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,25,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(20,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,20,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(20,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(26,20,false,false)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("01100110")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("00111100")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("10010110")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("11001100")(0,7)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(12,1,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(18,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,18,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq [\compare_eq("zynq",12,false,1)(1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(18,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,18,false,false)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.ccm_dist_mem [\ccm_dist_mem(6,64,1,0,0,"101011...]
+Compiling architecture xilinx of entity mult_gen_v12_0.ccm_syncmem [\ccm_syncmem("zynq",68,64,0,"101...]
+Compiling architecture xilinx of entity mult_gen_v12_0.ccm_scaled_adder [\ccm_scaled_adder(68,67,74,0,1,1...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,73,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.ccm_operation [\ccm_operation("zynq",11,62,73,1...]
+Compiling architecture xilinx of entity mult_gen_v12_0.ccm [\ccm("zynq",11,1,62,1,1,0,2,2,"1...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_exp [\flt_log_exp("zynq",2,64,53,11,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(7,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,7,false,false)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,21,0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(4,54,1,1,1,55,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",4,1,54,1,1,0,2,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(59,0,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,1,1,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,61,60,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(50,0,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,1,1,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(48,1,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,60,60,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(60,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul_iter [\flt_log_rr_mul_iter("zynq",2,64...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,25,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,9,0,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,1,0,"NO_RESET","CAS...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","CAS...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(6,59,1,1,0,25,60)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",6,1,59,1,1,0,3,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(67,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(66,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,69,67,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(53,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(7,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,1,false,false)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(2,0,1,2,"NO_RESET","DIR...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,68,68,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(68,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul_iter [\flt_log_rr_mul_iter("zynq",2,64...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,10,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(6,60,1,1,0,25,61)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",6,1,60,1,1,0,3,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(61,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,69,62,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(62,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul_iter [\flt_log_rr_mul_iter("zynq",2,64...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,17,0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(6,50,1,1,0,25,51)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",6,1,50,1,1,0,2,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(51,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,64,52,6...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,63,63,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(63,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul_iter [\flt_log_rr_mul_iter("zynq",2,64...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,24,0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(6,40,1,1,1,41,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",6,1,40,1,1,0,1,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(57,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(41,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,59,42,5...]
+Compiling architecture rtl of entity floating_point_v7_0.dsp48e1_wrapper [\dsp48e1_wrapper(30,18,48,25,48,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,58,58,5...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(58,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul_iter [\flt_log_rr_mul_iter("zynq",2,64...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,18,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,20,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,1,0,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,17,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,1,0,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,1,1,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(2,0,0,2,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,43,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(54,6,0,1,0,54,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",54,0,6,1,1,0,3,0,0,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rr_mul [\flt_log_rr_mul("zynq",2,64,53,(...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(13,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,13,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(12,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,12,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(9,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,9,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(5,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,5,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,3,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(4,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,4,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(4,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,4,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(4,2,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,2,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_L_block_memory [\flt_log_L_block_memory("zynq",t...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,88,82,8...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,79,74,7...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,88,80,8...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,88,69,8...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,88,64,8...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_pt_log_L_block [\flt_pt_log_L_block("zynq",(5,4,...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_rr [\flt_log_rr("zynq",2,64,53,(5,4,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(21,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,21,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(6,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,6,false,false)\]
+Compiling architecture xilinx of entity floating_point_v7_0.mux_bus2 [\mux_bus2("zynq",87,0)(1,4)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,96,87,9...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(50,0,false,true)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,96,50,9...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,59,87,8...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(96,0,false,false)\]
+Compiling architecture xilinx of entity floating_point_v7_0.mux_bus2 [\mux_bus2("zynq",26,0)(1,4)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(2,0,0,2,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(26,26,1,1,0,27,27)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",26,1,26,1,1,0,3,0,0,...]
+Compiling architecture xilinx of entity mult_gen_v12_0.mult_gen_v12_0_viv [\mult_gen_v12_0_viv(0,0,1,"zynq"...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_taylor [\flt_log_taylor("zynq",2,64,53,(...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(96,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(16,0,false,true)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",16,0,1,true,...]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",2,true,1)(1,4)\]
+Compiling architecture rtl of entity floating_point_v7_0.mux4 [\mux4("zynq",1,true,1)(1,4)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",8,0,1,true,t...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_lead_zero_encode [\flt_log_lead_zero_encode("zynq"...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_shift_msb_first [\flt_log_shift_msb_first(96,96,6...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_log_normalize [\flt_log_normalize("zynq",96,6,9...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_norm [\flt_log_norm("zynq",2,96,6,(tru...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,64,64,6...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_rnd [\flt_log_rnd("zynq",2,64,53,96,1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(6,1,false,false)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1100110010010110")(0,15)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1100110000111100")(0,15)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",0,11,11,1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(52,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(64,1,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_recomb [\flt_log_recomb("zynq",64,53,11,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log [\flt_log("zynq",2,64,53,64,53,(f...]
+WARNING: [#UNDEF] Warning: "NUMERIC_STD.TO_SIGNED: vector truncated" [/proj/xhdhdstaff/saikatb/verific_integ/data/vhdl/src/ieee/distributable/numeric_std.vhd:3418]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(29,1,0,0,0,0...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_dlog_29_full_dsp_64_arch of entity xil_defaultlib.synth_top_ap_dlog_29_full_dsp_64 [synth_top_ap_dlog_29_full_dsp_64...]
+Compiling module xil_defaultlib.synth_top_dlog_64ns_64ns_64_31_f...
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,48,48,4...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(104,1,false,false)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,15,0...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E("0000000000000000",'0')(...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,17,0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(2,0,0,2,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,1,0,1,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","CAS...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(49,49,0,0,0,49,49)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",49,0,49,0,1,0,100000...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(59,3,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(105,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.multadd [\multadd("zynq",49,49,105,1,105,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(14,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,14,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",6,0,15,false...]
+Compiling architecture synth of entity floating_point_v7_0.compare_gt [\compare_gt("zynq",11,false,15)(...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(14,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(2,14,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(15,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,15,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_exp_specialcase [\flt_exp_specialcase("zynq",64,5...]
+Compiling architecture rtl of entity floating_point_v7_0.delay_s [\delay_s(13,0,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.delay_s [\delay_s(12,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(16,1,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.zero_det_sel [\zero_det_sel("zynq",false,53,67...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(67,1,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.shift_msb_first [\shift_msb_first(53,67,7,false,f...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(69,0,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",69,0,0,false...]
+Compiling architecture synth of entity floating_point_v7_0.flt_to_fix_conv [\flt_to_fix_conv("zynq",64,53,67...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,15,15,1...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,15,15,1...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,15,15,1...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_exp_ccm [\flt_exp_ccm("zynq",2,"ccm_recip...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,70,70,7...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_exp_ccm [\flt_exp_ccm("zynq",2,"ccm_ln2",...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(4,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(66,4,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",2,67,67,6...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(3,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(9,3,false,false)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_exp_e2A [\flt_exp_e2A("zynq",52,9,57,fals...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(46,0,false,true)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(26,23,0,0,1,25,26)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",26,0,23,0,1,0,100000...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(46,0,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,1,false,true)\]
+Compiling architecture synth of entity floating_point_v7_0.multadd [\multadd("zynq",26,23,57,1,58,2,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(46,1,false,true)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,16,0...]
+Compiling architecture xilinx of entity mult_gen_v12_0.delay_line [\delay_line("zynq",true,1,0,13,0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","CAS...]
+Compiling architecture xilinx of entity mult_gen_v12_0.op_resize [\op_resize(33,30,0,0,0,33,30)\]
+Compiling architecture xilinx of entity mult_gen_v12_0.dsp [\dsp("zynq",33,0,30,0,1,0,100000...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(24,2,false,true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(71,0,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.multadd [\multadd("zynq",33,30,70,1,71,2,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(2,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(30,2,false,false)\]
+Compiling architecture synth of entity floating_point_v7_0.flt_exp_dp_poly [\flt_exp_dp_poly("zynq",2,11,52,...]
+Compiling architecture rtl of entity floating_point_v7_0.flt_exp_e2zmzm1 [\flt_exp_e2zmzm1("zynq",2,11,52,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(4,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(47,4,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(11,1,0,0,0,0...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(11,11,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(9,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(1,9,false,false)\]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",16,0,0,false...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(28,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(29,1,false,false)\]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(1,1,0,0,0,0,...]
+Compiling architecture rtl of entity floating_point_v7_0.delay [\delay(54,1,false,true)\]
+Compiling architecture rtl of entity floating_point_v7_0.flt_round_bit [\flt_round_bit("zynq",false,fals...]
+Compiling architecture rtl of entity floating_point_v7_0.renorm_and_round_logic [\renorm_and_round_logic("zynq",(...]
+Compiling architecture synth of entity floating_point_v7_0.flt_log_addsub [\flt_log_addsub("zynq",0,12,12,1...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",2,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_eq_im [\compare_eq_im("zynq",11,"000000...]
+Compiling architecture synth of entity floating_point_v7_0.compare_ne_im [\compare_ne_im("zynq",10,"000000...]
+Compiling architecture struct of entity floating_point_v7_0.carry_chain [\carry_chain("zynq",6,0,0,false,...]
+Compiling architecture synth of entity floating_point_v7_0.compare_gt [\compare_gt("zynq",12,false,0)(1...]
+Compiling architecture synth of entity floating_point_v7_0.flt_exp_recomb [\flt_exp_recomb("zynq",11,52,64,...]
+Compiling architecture synth of entity floating_point_v7_0.flt_exp [\flt_exp("zynq",2,0,64,53,64,53,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(16,1,0,0,0,0...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0_viv [\floating_point_v7_0_viv("zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_0.floating_point_v7_0 [\floating_point_v7_0("zynq",0,0,...]
+Compiling architecture synth_top_ap_dexp_16_full_dsp_64_arch of entity xil_defaultlib.synth_top_ap_dexp_16_full_dsp_64 [synth_top_ap_dexp_16_full_dsp_64...]
+Compiling module xil_defaultlib.synth_top_dexp_64ns_64ns_64_18_f...
+Compiling module xil_defaultlib.synth_top_classifyPoly
+Compiling module xil_defaultlib.synth_top_classifyLinear
+Compiling module xil_defaultlib.synth_top_writeResult
+Compiling module xil_defaultlib.synth_top
+Compiling module xil_defaultlib.AESL_automem_example_0_id
+Compiling module xil_defaultlib.AESL_automem_example_1_id
+Compiling module xil_defaultlib.AESL_automem_example_2_id
+Compiling module xil_defaultlib.AESL_automem_example_3_id
+Compiling module xil_defaultlib.AESL_automem_example_0_value
+Compiling module xil_defaultlib.AESL_automem_example_1_value
+Compiling module xil_defaultlib.AESL_automem_example_2_value
+Compiling module xil_defaultlib.AESL_automem_example_3_value
+Compiling module xil_defaultlib.AESL_automem_sv_0_id
+Compiling module xil_defaultlib.AESL_automem_sv_1_id
+Compiling module xil_defaultlib.AESL_automem_sv_2_id
+Compiling module xil_defaultlib.AESL_automem_sv_3_id
+Compiling module xil_defaultlib.AESL_automem_sv_0_value
+Compiling module xil_defaultlib.AESL_automem_sv_1_value
+Compiling module xil_defaultlib.AESL_automem_sv_2_value
+Compiling module xil_defaultlib.AESL_automem_sv_3_value
+Compiling module xil_defaultlib.AESL_automem_lambda
+Compiling module xil_defaultlib.AESL_automem_svNonZeroFeature
+Compiling module xil_defaultlib.AESL_automem_nonZeroFeature
+Compiling module xil_defaultlib.AESL_automem_weight
+Compiling module xil_defaultlib.AESL_automem_output_r
+Compiling module xil_defaultlib.apatb_synth_top_top
+Waiting for 8 sub-compilation(s) to finish...
+Built simulation snapshot synth_top

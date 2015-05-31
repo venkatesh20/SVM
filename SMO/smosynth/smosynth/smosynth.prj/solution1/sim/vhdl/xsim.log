@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# xsim v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu May 21 18:33:02 2015
+# Process ID: 7924
+# Log file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl/xsim.log
+# Journal file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/synth_top/xsim_script.tcl
+# xsim {synth_top} -maxdeltaid 10000 -tclbatch {synth_top.tcl}
+Vivado Simulator 2015.1
+Time resolution is 1 ps
+source synth_top.tcl
+## run all
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_calculate_Xf/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_calculate_Xf/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_ccm_ln2/\g_tables(1)\/i_addsub/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_ccm_ln2/\g_tables(1)\/i_addsub/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_ccm_ln2/\g_tables(0)\/i_addsub/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dexp_64ns_64ns_64_18_full_dsp_U31/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/exp_op/OP/i_ccm_ln2/\g_tables(0)\/i_addsub/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dlog_64ns_64ns_64_31_full_dsp_U30/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/log_op/OP/taylor/z_plus_L_adder/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dlog_64ns_64ns_64_31_full_dsp_U30/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/log_op/OP/taylor/z_plus_L_adder/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dlog_64ns_64ns_64_31_full_dsp_U30/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/log_op/OP/rr/mul/\gen_iter(5)\/rr_mult/bez_add/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_synth_top_top/AESL_inst_synth_top/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_61/synth_top_dlog_64ns_64ns_64_31_full_dsp_U30/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/log_op/OP/rr/mul/\gen_iter(5)\/rr_mult/bez_add/dsp/two/dsp48e1_add_hi/DSP/prcs_carryinsel_drc  File: /wrk/buildscratch/2015.1/continuous/20150427185245/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+ERROR: Index 50 out of bound 0 to 49
+Time: 87550 ns  Iteration: 1  Process: /apatb_synth_top_top/AESL_inst_output_r/write_proc
+  File: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl/AESL_automem_output_r.vhd
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 56.102 ; gain = 0.012
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu May 21 18:33:35 2015...

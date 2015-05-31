@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu May 21 18:42:59 2015
+# Process ID: 7016
+# Log file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/impl/ip/webtalk.log
+# Journal file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/impl/ip\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/impl/ip/tmp.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/impl/ip/tmp.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu May 21 18:43:06 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 62.379 ; gain = 0.047
+INFO: [Common 17-206] Exiting Webtalk at Thu May 21 18:43:06 2015...

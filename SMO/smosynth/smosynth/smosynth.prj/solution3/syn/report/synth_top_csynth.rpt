@@ -1,0 +1,133 @@
+
+
+================================================================
+== Vivado HLS Report for 'synth_top'
+================================================================
+* Date:           Fri May 22 15:27:24 2015
+
+* Version:        2015.1 (Build 1215546 on Mon Apr 27 19:24:50 PM 2015)
+* Project:        smosynth.prj
+* Solution:       solution3
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |  10.00|      9.40|        1.25|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+---------+-----+---------+----------+
+    |    Latency    |    Interval   | Pipeline |
+    | min |   max   | min |   max   |   Type   |
+    +-----+---------+-----+---------+----------+
+    |    1|  2256803|    2|  2256804| dataflow |
+    +-----+---------+-----+---------+----------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------+-----------------------+-----+---------+-----+---------+---------+
+        |                                  |                       |    Latency    |    Interval   | Pipeline|
+        |             Instance             |         Module        | min |   max   | min |   max   |   Type  |
+        +----------------------------------+-----------------------+-----+---------+-----+---------+---------+
+        |grp_synth_top_writeResult_fu_161  |synth_top_writeResult  |    1|  2256803|    1|  2256803|   none  |
+        +----------------------------------+-----------------------+-----+---------+-----+---------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |       64|    166|   14264|  22741|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       2|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |       64|    166|   14266|  22741|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |       22|     75|      13|     42|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +--------------------------+------------------------+---------+-------+-------+-------+
+    |         Instance         |         Module         | BRAM_18K| DSP48E|   FF  |  LUT  |
+    +--------------------------+------------------------+---------+-------+-------+-------+
+    |synth_top_smo_io_s_axi_U  |synth_top_smo_io_s_axi  |       64|      0|   1786|   1638|
+    |synth_top_writeResult_U0  |synth_top_writeResult   |        0|    166|  12478|  21103|
+    +--------------------------+------------------------+---------+-------+-------+-------+
+    |Total                     |                        |       64|    166|  14264|  22741|
+    +--------------------------+------------------------+---------+-------+-------+-------+
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    +------------------------------------------+---+----+-----+-----------+
+    |                   Name                   | FF| LUT| Bits| Const Bits|
+    +------------------------------------------+---+----+-----+-----------+
+    |ap_CS                                     |  1|   0|    1|          0|
+    |ap_reg_procdone_synth_top_writeResult_U0  |  1|   0|    1|          0|
+    +------------------------------------------+---+----+-----+-----------+
+    |Total                                     |  2|   0|    2|          0|
+    +------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------------+-----+-----+------------+--------------+--------------+
+|s_axi_smo_io_AWVALID  |  in |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_AWREADY  | out |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_AWADDR   |  in |   17|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_WVALID   |  in |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_WREADY   | out |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_WDATA    |  in |   32|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_WSTRB    |  in |    4|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_ARVALID  |  in |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_ARREADY  | out |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_ARADDR   |  in |   17|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_RVALID   | out |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_RREADY   |  in |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_RDATA    | out |   32|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_RRESP    | out |    2|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_BVALID   | out |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_BREADY   |  in |    1|    s_axi   |    smo_io    |    scalar    |
+|s_axi_smo_io_BRESP    | out |    2|    s_axi   |    smo_io    |    scalar    |
+|ap_clk                |  in |    1| ap_ctrl_hs |   synth_top  | return value |
+|ap_rst_n              |  in |    1| ap_ctrl_hs |   synth_top  | return value |
+|interrupt             | out |    1| ap_ctrl_hs |   synth_top  | return value |
++----------------------+-----+-----+------------+--------------+--------------+
+

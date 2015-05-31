@@ -1,0 +1,2341 @@
+13:56:44 **** Incremental Build of configuration Debug for project smo_linear_test ****
+make all 
+make: Nothing to be done for `all'.
+14:08:04 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:2:23: fatal error: zed_audio.h: No such file or directory
+ #include "zed_audio.h"
+                       ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+14:08:27 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:26:1: error: unknown type name 'XFir'
+ XFir HlsFir_left, HlsFir_right;
+ ^
+../src/helloworld.c:32:18: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                  ^
+../src/helloworld.c:32:41: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                                         ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:64:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:64:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:64:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:64:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:67:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:74:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:74:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:74:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:112:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:133:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:138:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:139:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:140:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:145:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:151:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:155:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:162:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:163:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:186:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:200:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:201:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:231:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:08:52 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:21:1: error: unknown type name 'XFir'
+ XFir HlsFir_left, HlsFir_right;
+ ^
+../src/helloworld.c:27:18: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                  ^
+../src/helloworld.c:27:41: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                                         ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:59:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:59:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:59:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:59:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:62:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:69:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:69:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:69:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:102:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:128:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:133:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:134:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:135:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:140:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:150:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:157:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:158:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:176:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:181:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:195:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:196:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:226:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:09:40 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:27:18: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                  ^
+../src/helloworld.c:27:41: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                                         ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:59:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:59:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:59:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:59:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:62:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:69:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:69:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:69:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:102:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:102:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:107:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:128:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:133:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:134:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:135:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:140:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:140:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:141:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:150:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:157:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:158:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:176:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:181:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:181:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:181:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:195:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:196:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:226:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:09:57 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:27:18: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                  ^
+../src/helloworld.c:27:41: error: unknown type name 'XFir'
+ int hls_fir_init(XFir *hls_firPtr_left, XFir *hls_firPtr_right)
+                                         ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:59:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:59:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:59:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:59:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:62:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:64:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:69:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:69:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:69:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:74:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:102:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:102:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:107:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:128:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:133:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:134:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:135:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:140:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:140:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:141:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:143:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:144:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:150:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:157:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:158:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:176:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:181:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:181:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:181:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:195:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:196:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:200:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:201:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:226:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:10:40 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_synth_init':
+../src/helloworld.c:29:4: error: unknown type name 'XFir_Config'
+    XFir_Config *cfgPtr_left, *cfgPtr_right;
+    ^
+../src/helloworld.c:32:4: warning: implicit declaration of function 'XFir_LookupConfig' [-Wimplicit-function-declaration]
+    cfgPtr_left = XFir_LookupConfig(XPAR_FIR_LEFT_DEVICE_ID);
+    ^
+../src/helloworld.c:32:36: error: 'XPAR_FIR_LEFT_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr_left = XFir_LookupConfig(XPAR_FIR_LEFT_DEVICE_ID);
+                                    ^
+../src/helloworld.c:32:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:37:4: warning: implicit declaration of function 'XFir_CfgInitialize' [-Wimplicit-function-declaration]
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+    ^
+../src/helloworld.c:37:32: error: 'hls_firPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                ^
+../src/helloworld.c:43:37: error: 'XPAR_FIR_RIGHT_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr_right = XFir_LookupConfig(XPAR_FIR_RIGHT_DEVICE_ID);
+                                     ^
+../src/helloworld.c:48:32: error: 'hls_firPtr_right' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_right, cfgPtr_right);
+                                ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:59:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:59:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:59:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:62:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:64:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:69:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:69:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:69:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:74:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:102:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:102:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:107:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:128:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:133:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:134:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:135:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:140:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:140:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:141:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:143:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:144:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:150:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:157:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:158:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:176:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:181:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:181:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:181:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:195:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:196:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:200:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:201:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:226:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:11:47 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_synth_init':
+../src/helloworld.c:32:4: error: 'cfgPtr_left' undeclared (first use in this function)
+    cfgPtr_left = XFir_LookupConfig(XPAR_FIR_LEFT_DEVICE_ID);
+    ^
+../src/helloworld.c:32:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:32:4: warning: implicit declaration of function 'XFir_LookupConfig' [-Wimplicit-function-declaration]
+../src/helloworld.c:32:36: error: 'XPAR_FIR_LEFT_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr_left = XFir_LookupConfig(XPAR_FIR_LEFT_DEVICE_ID);
+                                    ^
+../src/helloworld.c:37:4: warning: implicit declaration of function 'XFir_CfgInitialize' [-Wimplicit-function-declaration]
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+    ^
+../src/helloworld.c:37:32: error: 'hls_firPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                ^
+../src/helloworld.c:43:4: error: 'cfgPtr_right' undeclared (first use in this function)
+    cfgPtr_right = XFir_LookupConfig(XPAR_FIR_RIGHT_DEVICE_ID);
+    ^
+../src/helloworld.c:43:37: error: 'XPAR_FIR_RIGHT_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr_right = XFir_LookupConfig(XPAR_FIR_RIGHT_DEVICE_ID);
+                                     ^
+../src/helloworld.c:48:32: error: 'hls_firPtr_right' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_right, cfgPtr_right);
+                                ^
+../src/helloworld.c:29:23: warning: unused variable 'cfgPtr' [-Wunused-variable]
+    XSynth_top_Config *cfgPtr;
+                       ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:59:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:59:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:59:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:62:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:64:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:69:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:69:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:69:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:74:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:102:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:102:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:107:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:107:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:128:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:133:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:134:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:135:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:140:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:140:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:141:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:143:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:144:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:150:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:157:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:158:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:176:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:181:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:181:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:181:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:195:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:196:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:200:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:201:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:226:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:14:51 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_synth_init':
+../src/helloworld.c:32:37: error: 'XPAR_FIR_LEFT_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr = XSynth_top_LookupConfig(XPAR_FIR_LEFT_DEVICE_ID);
+                                     ^
+../src/helloworld.c:32:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:37:4: warning: implicit declaration of function 'XFir_CfgInitialize' [-Wimplicit-function-declaration]
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+    ^
+../src/helloworld.c:37:32: error: 'hls_firPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                ^
+../src/helloworld.c:37:49: error: 'cfgPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                                 ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:48:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:48:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:48:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:51:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:53:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:58:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:58:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:58:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:63:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:91:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:91:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:96:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:96:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:117:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:122:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:123:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:124:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:129:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:129:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:130:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:132:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:133:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:135:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:139:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:146:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:147:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:165:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:170:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:170:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:170:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:184:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:185:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:189:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:190:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:215:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:15:17 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_synth_init':
+../src/helloworld.c:32:37: error: 'XPAR_SYNTH_TOP_DEVICE_ID' undeclared (first use in this function)
+    cfgPtr = XSynth_top_LookupConfig(XPAR_SYNTH_TOP_DEVICE_ID);
+                                     ^
+../src/helloworld.c:32:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:37:4: warning: implicit declaration of function 'XFir_CfgInitialize' [-Wimplicit-function-declaration]
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+    ^
+../src/helloworld.c:37:32: error: 'hls_firPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                ^
+../src/helloworld.c:37:49: error: 'cfgPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                                 ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:48:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:48:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:48:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:51:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:53:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:58:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:58:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:58:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:63:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:91:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:91:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:96:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:96:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:117:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:122:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:123:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:124:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:129:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:129:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:130:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:132:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:133:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:135:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:139:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:146:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:147:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:165:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:170:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:170:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:170:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:184:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:185:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:189:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:190:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:215:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:19:32 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_synth_init':
+../src/helloworld.c:37:4: warning: implicit declaration of function 'XFir_CfgInitialize' [-Wimplicit-function-declaration]
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+    ^
+../src/helloworld.c:37:32: error: 'hls_firPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                ^
+../src/helloworld.c:37:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:37:49: error: 'cfgPtr_left' undeclared (first use in this function)
+    status = XFir_CfgInitialize(hls_firPtr_left, cfgPtr_left);
+                                                 ^
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:48:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:48:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:48:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:51:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:53:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:58:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:58:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:58:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:63:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:91:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:91:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:96:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:96:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:117:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:122:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:123:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:124:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:129:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:129:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:130:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:132:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:133:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:135:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:139:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:146:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:147:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:165:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:170:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:170:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:170:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:184:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:185:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:189:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:190:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:215:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:21:58 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_fir_left_isr':
+../src/helloworld.c:48:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:48:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:48:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:48:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:51:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:53:5: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+     ResultAvailHlsFir_left = 1;
+     ^
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:58:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:58:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:58:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:63:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:91:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:91:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:96:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:96:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:117:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:122:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:123:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:124:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:129:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:129:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:130:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:132:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:133:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:135:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:139:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:146:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:147:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:165:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:170:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:170:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:170:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:184:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:185:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:189:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:190:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:215:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:23:49 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hls_fir_right_isr':
+../src/helloworld.c:58:5: error: unknown type name 'XFir'
+     XFir *pAccelerator = (XFir *)InstancePtr;
+     ^
+../src/helloworld.c:58:27: error: 'XFir' undeclared (first use in this function)
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                           ^
+../src/helloworld.c:58:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:58:33: error: expected expression before ')' token
+     XFir *pAccelerator = (XFir *)InstancePtr;
+                                 ^
+../src/helloworld.c:61:5: warning: implicit declaration of function 'XFir_InterruptClear' [-Wimplicit-function-declaration]
+     XFir_InterruptClear(pAccelerator,1);
+     ^
+../src/helloworld.c:63:5: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+     ResultAvailHlsFir_right = 1;
+     ^
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:91:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:91:96: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                ^
+../src/helloworld.c:91:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:96:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:96:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:117:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:122:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:123:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:124:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:129:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:129:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:130:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:132:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:133:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:135:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:139:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:146:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:147:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:165:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:170:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:170:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:170:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:184:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:185:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:189:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:190:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:215:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:24:00 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:82:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:82:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:96: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                ^
+../src/helloworld.c:82:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:87:38: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                      ^
+../src/helloworld.c:87:97: error: 'hls_fir_right_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                 ^
+../src/helloworld.c:87:116: error: 'HlsFir_right' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_right_isr,&HlsFir_right);
+                                                                                                                    ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:108:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:113:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:114:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:115:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:120:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:120:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:121:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:123:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:124:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:126:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:130:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:137:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:138:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:161:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:161:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:161:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:175:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:176:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:180:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:181:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:206:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:24:32 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:82:38: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                      ^
+../src/helloworld.c:82:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:96: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                ^
+../src/helloworld.c:82:114: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                  ^
+../src/helloworld.c:90:28: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR);
+                            ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:104:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:111:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:116:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:116:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:117:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:120:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:122:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:126:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:134:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:147:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:152:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:157:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:157:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:157:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:172:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:177:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:202:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:26:25 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:82:99: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                   ^
+../src/helloworld.c:82:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:117: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                     ^
+../src/helloworld.c:88:28: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR);
+                            ^
+../src/helloworld.c:90:28: error: 'XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_FIR_RIGHT_INTERRUPT_INTR);
+                            ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:104:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:111:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:116:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:116:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:117:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:120:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:122:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:126:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:134:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:147:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:152:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:157:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:157:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:157:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:172:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:177:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:202:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:26:34 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:82:99: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                   ^
+../src/helloworld.c:82:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:117: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                     ^
+../src/helloworld.c:88:28: error: 'XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_FIR_LEFT_INTERRUPT_INTR);
+                            ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:156:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:156:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:175:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:201:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:26:48 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:82:99: error: 'hls_fir_left_isr' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                   ^
+../src/helloworld.c:82:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:117: error: 'HlsFir_left' undeclared (first use in this function)
+     result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTERRUPT_INTR,(Xil_InterruptHandler)hls_fir_left_isr,&HlsFir_left);
+                                                                                                                     ^
+../src/helloworld.c:88:28: error: 'XPAR_FABRIC_SYNTH_TOP_0_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTR);
+                            ^
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:156:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:156:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:175:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:201:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:28:28 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:88:28: error: 'XPAR_FABRIC_SYNTH_TOP_0_INTR' undeclared (first use in this function)
+     XScuGic_Enable(&ScuGic,XPAR_FABRIC_SYNTH_TOP_0_INTR);
+                            ^
+../src/helloworld.c:88:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:156:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:156:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:175:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:201:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:29:07 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:156:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:156:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:175:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:201:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:29:13 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:2: warning: implicit declaration of function 'AudioPllConfig' [-Wimplicit-function-declaration]
+  AudioPllConfig();
+  ^
+../src/helloworld.c:151:2: warning: implicit declaration of function 'AudioConfigureJacks' [-Wimplicit-function-declaration]
+  AudioConfigureJacks();
+  ^
+../src/helloworld.c:156:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:156:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:156:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:175:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:176:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:201:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:32:45 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:148:2: warning: implicit declaration of function 'hls_fir_init' [-Wimplicit-function-declaration]
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+  ^
+../src/helloworld.c:148:23: error: 'HlsFir_left' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                       ^
+../src/helloworld.c:148:37: error: 'HlsFir_right' undeclared (first use in this function)
+  status=hls_fir_init(&HlsFir_left, &HlsFir_right);
+                                     ^
+../src/helloworld.c:162:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:163:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:167:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:168:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:193:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:34:14 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:5: warning: implicit declaration of function 'XFir_InterruptEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptEnable(&HlsFir_left,1);
+     ^
+../src/helloworld.c:160:27: error: 'HlsFir_left' undeclared (first use in this function)
+     XFir_InterruptEnable(&HlsFir_left,1);
+                           ^
+../src/helloworld.c:161:5: warning: implicit declaration of function 'XFir_InterruptGlobalEnable' [-Wimplicit-function-declaration]
+     XFir_InterruptGlobalEnable(&HlsFir_left);
+     ^
+../src/helloworld.c:162:27: error: 'HlsFir_right' undeclared (first use in this function)
+     XFir_InterruptEnable(&HlsFir_right,1);
+                           ^
+../src/helloworld.c:165:2: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+  ResultAvailHlsFir_left = 0;
+  ^
+../src/helloworld.c:166:2: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+  ResultAvailHlsFir_right = 0;
+  ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:191:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:35:12 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:103:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:109:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:110:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:115:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:115:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:116:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:118:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:119:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:121:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:125:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:132:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:133:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+../src/helloworld.c: In function 'IicConfig':
+../src/helloworld.c:188:23: error: 'IIC_SCLK_RATE' undeclared (first use in this function)
+  XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+                       ^
+make: *** [src/helloworld.o] Error 1
+14:37:04 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:105:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:105:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:110:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:111:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:112:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:117:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:117:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:118:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:120:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:121:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:123:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:127:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:134:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:135:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+make: *** [src/helloworld.o] Error 1
+14:52:48 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:105:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:105:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:110:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:111:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:112:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:117:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:117:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:118:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:120:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:121:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:123:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:127:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:134:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:135:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+make: *** [src/helloworld.o] Error 1

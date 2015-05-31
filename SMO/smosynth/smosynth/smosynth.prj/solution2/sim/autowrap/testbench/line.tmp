@@ -1,0 +1,78 @@
+#pragma line 1 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" ::: -10
+#pragma line 1 "<built-in>" ::: -9
+#pragma line 1 "<command-line>" ::: -8
+#pragma line 1 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" ::: -7
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 1 3 ::: -6
+#pragma line 19 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: -5
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 1 3 ::: -4
+#pragma line 32 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 3 ::: -3
+#pragma line 33 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 3 ::: -1
+#pragma line 20 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 0
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 7
+#pragma line 212 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 8
+#pragma line 324 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 10
+#pragma line 353 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 12
+#pragma line 27 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 14
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stdarg.h" 1 3 4 ::: 16
+#pragma line 40 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stdarg.h" 3 4 ::: 17
+#pragma line 29 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 19
+#pragma line 129 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 20
+#pragma line 154 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 32
+#pragma line 169 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 34
+#pragma line 204 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 60
+#pragma line 293 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 69
+#pragma line 308 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 76
+#pragma line 331 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 91
+#pragma line 412 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 159
+#pragma line 455 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 170
+#pragma line 480 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 185
+#pragma line 522 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 215
+#pragma line 534 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 220
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 1 3 ::: 221
+#pragma line 21 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 3 ::: 222
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 223
+#pragma line 150 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 224
+#pragma line 22 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 2 3 ::: 226
+#pragma line 45 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 3 ::: 238
+#pragma line 535 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 328
+#pragma line 563 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 349
+#pragma line 625 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 404
+#pragma line 2 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" 2 ::: 422
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 1 3 ::: 423
+#pragma line 21 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 424
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 425
+#pragma line 22 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 2 3 ::: 426
+#pragma line 71 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 427
+#pragma line 112 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 437
+#pragma line 137 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 439
+#pragma line 149 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 444
+#pragma line 172 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 447
+#pragma line 196 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 449
+#pragma line 209 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 451
+#pragma line 260 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 467
+#pragma line 293 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 471
+#pragma line 303 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 473
+#pragma line 385 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 547
+#pragma line 477 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 604
+#pragma line 497 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 615
+#pragma line 3 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" 2 ::: 644
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 1 3 ::: 645
+#pragma line 20 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 646
+#pragma line 1 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 647
+#pragma line 21 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 2 3 ::: 648
+#pragma line 48 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 649
+#pragma line 83 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 674
+#pragma line 112 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 677
+#pragma line 188 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 682
+#pragma line 246 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 714
+#pragma line 260 "c:\\xilinx\\vivado_hls\\2015.1\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h" 3 ::: 719
+#pragma line 4 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" 2 ::: 724
+#pragma line 1 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.h" 1 ::: 725
+#pragma line 28 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.h" ::: 734
+#pragma line 5 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" 2 ::: 794
+#pragma line 1 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/classify.h" 1 ::: 795
+#pragma line 1 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.h" 1 ::: 798
+#pragma line 4 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/classify.h" 2 ::: 799
+#pragma line 6 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" 2 ::: 827
+#pragma line 18 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" ::: 845
+#pragma line 28 "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/initialize.c" ::: 859

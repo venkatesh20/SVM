@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu May 21 18:33:28 2015
+# Process ID: 6372
+# Log file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl/webtalk.log
+# Journal file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/vhdl/xsim.dir/synth_top/webtalk/xsim_webtalk.tcl -notrace

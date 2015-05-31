@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri May 22 00:39:45 2015
+# Process ID: 6168
+# Log file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution2/impl/ip/webtalk.log
+# Journal file: C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution2/impl/ip\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution2/impl/ip/tmp.hw/webtalk/labtool_webtalk.tcl -notrace

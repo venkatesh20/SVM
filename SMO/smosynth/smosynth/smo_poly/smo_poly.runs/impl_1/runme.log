@@ -1,0 +1,726 @@
+
+*** Running vivado
+    with args -log smo_poly_system_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source smo_poly_system_wrapper.tcl -notrace
+
+
+****** Vivado v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source smo_poly_system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 556 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_processing_system7_0_0/smo_poly_system_processing_system7_0_0.xdc] for cell 'smo_poly_system_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_processing_system7_0_0/smo_poly_system_processing_system7_0_0.xdc] for cell 'smo_poly_system_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_0/smo_poly_system_axi_gpio_0_0_board.xdc] for cell 'smo_poly_system_i/start_comp/U0'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_0/smo_poly_system_axi_gpio_0_0_board.xdc] for cell 'smo_poly_system_i/start_comp/U0'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_0/smo_poly_system_axi_gpio_0_0.xdc] for cell 'smo_poly_system_i/start_comp/U0'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_0/smo_poly_system_axi_gpio_0_0.xdc] for cell 'smo_poly_system_i/start_comp/U0'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_1/smo_poly_system_axi_gpio_0_1_board.xdc] for cell 'smo_poly_system_i/finish_comp/U0'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_1/smo_poly_system_axi_gpio_0_1_board.xdc] for cell 'smo_poly_system_i/finish_comp/U0'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_1/smo_poly_system_axi_gpio_0_1.xdc] for cell 'smo_poly_system_i/finish_comp/U0'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_axi_gpio_0_1/smo_poly_system_axi_gpio_0_1.xdc] for cell 'smo_poly_system_i/finish_comp/U0'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_rst_processing_system7_0_100M_0/smo_poly_system_rst_processing_system7_0_100M_0_board.xdc] for cell 'smo_poly_system_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_rst_processing_system7_0_100M_0/smo_poly_system_rst_processing_system7_0_100M_0_board.xdc] for cell 'smo_poly_system_i/rst_processing_system7_0_100M'
+Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_rst_processing_system7_0_100M_0/smo_poly_system_rst_processing_system7_0_100M_0.xdc] for cell 'smo_poly_system_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.srcs/sources_1/bd/smo_poly_system/ip/smo_poly_system_rst_processing_system7_0_100M_0/smo_poly_system_rst_processing_system7_0_100M_0.xdc] for cell 'smo_poly_system_i/rst_processing_system7_0_100M'
+Parsing XDC File [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/zed_smo_constraints.xdc]
+Finished Parsing XDC File [C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/zed_smo_constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 576.129 ; gain = 358.867
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.673 . Memory (MB): peak = 580.563 ; gain = 1.402
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 19 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1c2c0a5a7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1095.152 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 77 cells.
+Phase 2 Constant Propagation | Checksum: 1e5d0cce7
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1095.152 ; gain = 0.000
+
+Phase 3 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fadd_32ns_32ns_32_5_full_dsp_U0/synth_top_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/ZERO_14_DET.ZERO_DET/CARRY_OUT.
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fptrunc_64ns_32_1_U2/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/CARRYS_OUT[0].
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fptrunc_64ns_32_1_U2/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/RND_BIT_GEN/CARRYS_OUT[0].
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fptrunc_64ns_32_1_U2/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.Z_DET_REQ.DET_ZERO/CARRY_OUT.
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_fptrunc_64ns_32_1_U28/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/CARRYS_OUT[0].
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_fptrunc_64ns_32_1_U28/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/RND_BIT_GEN/CARRYS_OUT[0].
+WARNING: [Opt 31-6] Deleting driverless net: smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_fptrunc_64ns_32_1_U28/synth_top_ap_fptrunc_0_no_dsp_64_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.Z_DET_REQ.DET_ZERO/CARRY_OUT.
+INFO: [Opt 31-12] Eliminated 9802 unconnected nets.
+INFO: [Opt 31-11] Eliminated 285 unconnected cells.
+Phase 3 Sweep | Checksum: 210d4ab54
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1095.152 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 1095.152 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 210d4ab54
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1095.152 ; gain = 0.000
+Implement Debug Cores | Checksum: 12152c318
+Logic Optimization | Checksum: 12152c318
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 30 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: 1d8d48582
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1152.445 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1d8d48582
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1152.445 ; gain = 57.293
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1152.445 ; gain = 576.316
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.243 . Memory (MB): peak = 1152.445 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1152.445 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.runs/impl_1/smo_poly_system_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 1b2e8ae3f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.482 . Memory (MB): peak = 1152.445 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.386 . Memory (MB): peak = 1152.445 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1152.445 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: ebdde96a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1152.445 ; gain = 0.000
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard LVCMOS18
+	FIXED_IO_mio[26] of IOStandard LVCMOS18
+	FIXED_IO_mio[25] of IOStandard LVCMOS18
+	FIXED_IO_mio[24] of IOStandard LVCMOS18
+	FIXED_IO_mio[23] of IOStandard LVCMOS18
+	FIXED_IO_mio[22] of IOStandard LVCMOS18
+	FIXED_IO_mio[21] of IOStandard LVCMOS18
+	FIXED_IO_mio[20] of IOStandard LVCMOS18
+	FIXED_IO_mio[19] of IOStandard LVCMOS18
+	FIXED_IO_mio[18] of IOStandard LVCMOS18
+	FIXED_IO_mio[17] of IOStandard LVCMOS18
+	FIXED_IO_mio[16] of IOStandard LVCMOS18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS18
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS33
+	FIXED_IO_mio[5] of IOStandard LVCMOS33
+	FIXED_IO_mio[4] of IOStandard LVCMOS33
+	FIXED_IO_mio[3] of IOStandard LVCMOS33
+	FIXED_IO_mio[2] of IOStandard LVCMOS33
+	FIXED_IO_mio[1] of IOStandard LVCMOS33
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+Phase 2.1.2 IO & Clk Clean Up | Checksum: ebdde96a
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1158.488 ; gain = 6.043
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: ebdde96a
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1158.488 ; gain = 6.043
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: c8194bde
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1158.488 ; gain = 6.043
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: d85c92e6
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1158.488 ; gain = 6.043
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 25021ab31
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1158.488 ; gain = 6.043
+Phase 2.2.1 Place Init Design | Checksum: 2417a6fd3
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 1198.367 ; gain = 45.922
+Phase 2.2 Build Placer Netlist Model | Checksum: 2417a6fd3
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1198.367 ; gain = 45.922
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 2417a6fd3
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1198.367 ; gain = 45.922
+Phase 2.3 Constrain Clocks/Macros | Checksum: 2417a6fd3
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1198.367 ; gain = 45.922
+Phase 2 Placer Initialization | Checksum: 2417a6fd3
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1198.367 ; gain = 45.922
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 1c8cb5a42
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:57 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 1c8cb5a42
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:57 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 13e192dbb
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:04 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 16fe3fb92
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:05 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 16fe3fb92
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:05 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 153d79bed
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:08 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 10525db91
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:08 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:16 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:16 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 4.6 Small Shape Detail Placement | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:17 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 4 Detail Placement | Checksum: f78b1c4f
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:18 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 1b8f31ab1
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:18 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.2 Post Commit Optimization
+
+Phase 5.2.1 updateClock Trees: PCOPT
+Phase 5.2.1 updateClock Trees: PCOPT | Checksum: 1b8f31ab1
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:18 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.2.2 Post Placement Optimization
+
+Phase 5.2.2.1 Post Placement Timing Optimization
+
+Phase 5.2.2.1.1 Restore Best Placement
+Phase 5.2.2.1.1 Restore Best Placement | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.613. For the most accurate timing information please run report_timing.
+Phase 5.2.2.1 Post Placement Timing Optimization | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 5.2.2 Post Placement Optimization | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 5.2 Post Commit Optimization | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.3 Sweep Clock Roots: Post-Placement
+Phase 5.3 Sweep Clock Roots: Post-Placement | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.4 Post Placement Cleanup
+Phase 5.4 Post Placement Cleanup | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.5 Placer Reporting
+
+Phase 5.5.1 Restore STA
+Phase 5.5.1 Restore STA | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 5.5 Placer Reporting | Checksum: 141d2585d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:25 . Memory (MB): peak = 1214.977 ; gain = 62.531
+
+Phase 5.6 Final Placement Cleanup
+Phase 5.6 Final Placement Cleanup | Checksum: 124f67888
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:26 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 124f67888
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:26 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Ending Placer Task | Checksum: 759de668
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:26 . Memory (MB): peak = 1214.977 ; gain = 62.531
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:02 ; elapsed = 00:01:49 . Memory (MB): peak = 1214.977 ; gain = 62.531
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:15 ; elapsed = 00:00:05 . Memory (MB): peak = 1214.977 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 1214.977 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.191 . Memory (MB): peak = 1214.977 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.543 . Memory (MB): peak = 1214.977 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1214.977 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are:  FIXED_IO_mio[53] of IOStandard LVCMOS18; FIXED_IO_mio[52] of IOStandard LVCMOS18; FIXED_IO_mio[51] of IOStandard LVCMOS18; FIXED_IO_mio[50] of IOStandard LVCMOS18; FIXED_IO_mio[49] of IOStandard LVCMOS18; FIXED_IO_mio[48] of IOStandard LVCMOS18; FIXED_IO_mio[47] of IOStandard LVCMOS18; FIXED_IO_mio[46] of IOStandard LVCMOS18; FIXED_IO_mio[45] of IOStandard LVCMOS18; FIXED_IO_mio[44] of IOStandard LVCMOS18; FIXED_IO_mio[43] of IOStandard LVCMOS18; FIXED_IO_mio[42] of IOStandard LVCMOS18; FIXED_IO_mio[41] of IOStandard LVCMOS18; FIXED_IO_mio[40] of IOStandard LVCMOS18; FIXED_IO_mio[39] of IOStandard LVCMOS18; FIXED_IO_mio[38] of IOStandard LVCMOS18; FIXED_IO_mio[37] of IOStandard LVCMOS18; FIXED_IO_mio[36] of IOStandard LVCMOS18; FIXED_IO_mio[35] of IOStandard LVCMOS18; FIXED_IO_mio[34] of IOStandard LVCMOS18; FIXED_IO_mio[33] of IOStandard LVCMOS18; FIXED_IO_mio[32] of IOStandard LVCMOS18; FIXED_IO_mio[31] of IOStandard LVCMOS18; FIXED_IO_mio[30] of IOStandard LVCMOS18; FIXED_IO_mio[29] of IOStandard LVCMOS18; FIXED_IO_mio[28] of IOStandard LVCMOS18; FIXED_IO_mio[27] of IOStandard LVCMOS18; FIXED_IO_mio[26] of IOStandard LVCMOS18; FIXED_IO_mio[25] of IOStandard LVCMOS18; FIXED_IO_mio[24] of IOStandard LVCMOS18; FIXED_IO_mio[23] of IOStandard LVCMOS18; FIXED_IO_mio[22] of IOStandard LVCMOS18; FIXED_IO_mio[21] of IOStandard LVCMOS18; FIXED_IO_mio[20] of IOStandard LVCMOS18; FIXED_IO_mio[19] of IOStandard LVCMOS18; FIXED_IO_mio[18] of IOStandard LVCMOS18; FIXED_IO_mio[17] of IOStandard LVCMOS18; FIXED_IO_mio[16] of IOStandard LVCMOS18; FIXED_IO_mio[15] of IOStandard LVCMOS18; FIXED_IO_mio[14] of IOStandard LVCMOS18; FIXED_IO_mio[13] of IOStandard LVCMOS18; FIXED_IO_mio[12] of IOStandard LVCMOS18; FIXED_IO_mio[11] of IOStandard LVCMOS18; FIXED_IO_mio[10] of IOStandard LVCMOS18; FIXED_IO_mio[9] of IOStandard LVCMOS18; FIXED_IO_mio[8] of IOStandard LVCMOS18; FIXED_IO_mio[7] of IOStandard LVCMOS18; FIXED_IO_mio[6] of IOStandard LVCMOS33; FIXED_IO_mio[5] of IOStandard LVCMOS33; FIXED_IO_mio[4] of IOStandard LVCMOS33; FIXED_IO_mio[3] of IOStandard LVCMOS33; FIXED_IO_mio[2] of IOStandard LVCMOS33; FIXED_IO_mio[1] of IOStandard LVCMOS33; FIXED_IO_mio[0] of IOStandard LVCMOS18;
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: b49e6763
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1269.289 ; gain = 54.313
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: b49e6763
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:49 . Memory (MB): peak = 1276.383 ; gain = 61.406
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: b49e6763
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:49 . Memory (MB): peak = 1284.805 ; gain = 69.828
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1852e2e76
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:02 . Memory (MB): peak = 1326.984 ; gain = 112.008
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.635  | TNS=0.000  | WHS=-0.177 | THS=-130.875|
+
+Phase 2 Router Initialization | Checksum: 1150bfc5e
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:07 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1599f3080
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:13 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2914
+ Number of Nodes with overlaps = 661
+ Number of Nodes with overlaps = 223
+ Number of Nodes with overlaps = 105
+ Number of Nodes with overlaps = 27
+ Number of Nodes with overlaps = 23
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 24c423a92
+
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:45 . Memory (MB): peak = 1380.926 ; gain = 165.949
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.298  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1c9ead877
+
+Time (s): cpu = 00:02:28 ; elapsed = 00:01:45 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 17
+ Number of Nodes with overlaps = 75
+ Number of Nodes with overlaps = 34
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 4
+INFO: [Route 35-325] The following overlapped nodes exist in the design and there is low overall congestion. 
+1. INT_R_X41Y52/IMUX18
+Overlapping nets: 2
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/B_IP_DELAY/i_pipe/b_frac_del[18]
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/A_IP_DELAY/i_pipe/a_frac_del[18]
+2. INT_R_X39Y60/IMUX21
+Overlapping nets: 2
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q_reg[1]_1
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q[9]_i_2_n_2
+3. INT_L_X38Y63/IMUX_L39
+Overlapping nets: 2
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q_reg[1]
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q[31]_i_3_n_2
+4. INT_R_X39Y65/SW2BEG0
+Overlapping nets: 2
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q[37]_i_2_n_2
+	smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/opt_has_pipe.first_q_reg[1]
+
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1b422a669
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:01 . Memory (MB): peak = 1380.926 ; gain = 165.949
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.298  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1e8dfb8dd
+
+Time (s): cpu = 00:02:43 ; elapsed = 00:02:01 . Memory (MB): peak = 1380.926 ; gain = 165.949
+Phase 4 Rip-up And Reroute | Checksum: 1e8dfb8dd
+
+Time (s): cpu = 00:02:43 ; elapsed = 00:02:01 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 26a733df1
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:02:03 . Memory (MB): peak = 1380.926 ; gain = 165.949
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.298  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 26a733df1
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:02:03 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 26a733df1
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:02:03 . Memory (MB): peak = 1380.926 ; gain = 165.949
+Phase 5 Delay and Skew Optimization | Checksum: 26a733df1
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:02:03 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 1bce2fdef
+
+Time (s): cpu = 00:02:49 ; elapsed = 00:02:05 . Memory (MB): peak = 1380.926 ; gain = 165.949
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.298  | TNS=0.000  | WHS=0.013  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 18abadb9a
+
+Time (s): cpu = 00:02:49 ; elapsed = 00:02:05 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 7.45734 %
+  Global Horizontal Routing Utilization  = 7.02874 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1f8ad5676
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:02:05 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1f8ad5676
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:02:05 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 22e664def
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.298  | TNS=0.000  | WHS=0.013  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 22e664def
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 1380.926 ; gain = 165.949
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 1380.926 ; gain = 165.949
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:57 ; elapsed = 00:02:31 . Memory (MB): peak = 1380.926 ; gain = 165.949
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 1380.926 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:24 ; elapsed = 00:00:10 . Memory (MB): peak = 1380.926 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_poly/smo_poly.runs/impl_1/smo_poly_system_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1380.926 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1380.926 ; gain = 0.000
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1380.926 ; gain = 0.000
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_Xf/dsp.two.dsp48e1_add_hi/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_Xf/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_1.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_1.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[0].i_addsub/dsp.two.dsp48e1_add_hi/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[0].i_addsub/dsp.two.dsp48e1_add_lo/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[1].i_addsub/dsp.two.dsp48e1_add_hi/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[1].i_addsub/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_recip_ln2/g_tables[0].i_addsub/dsp.one.dsp48e1_add/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_recip_ln2/g_tables[2].i_addsub/dsp.one.dsp48e1_add/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_renorm_and_round/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rounder/use_rounder.rounder/dsp.two.dsp48e1_add_lo/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/bez_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.zi_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[3].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.zi_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[3].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[3].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[3].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[3].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[3].rr_mult/zi_add_no_combined_adder.zi_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[4].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[4].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[4].rr_mult/bez_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[5].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[5].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input A C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[5].rr_mult/bez_add/dsp.two.dsp48e1_add_hi/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[5].rr_mult/bez_add/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/z1_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/rr/mul/z1_mult/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/z_plus_L_adder/dsp.two.dsp48e1_add_hi/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dlog_64ns_64ns_64_31_full_dsp_U6/synth_top_ap_dlog_29_full_dsp_64_u/U0/i_synth/LOG_OP.OP/taylor/z_plus_L_adder/dsp.two.dsp48e1_add_lo/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dmul_64ns_64ns_64_6_max_dsp_U5/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dmul_64ns_64ns_64_6_max_dsp_U5/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP input A is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dmul_64ns_64ns_64_6_max_dsp_U5/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dmul_64ns_64ns_64_6_max_dsp_U5/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fadd_32ns_32ns_32_5_full_dsp_U0/synth_top_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fadd_32ns_32ns_32_5_full_dsp_U0/synth_top_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fmul_32ns_32ns_32_4_max_dsp_U1/synth_top_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fmul_32ns_32ns_32_4_max_dsp_U1/synth_top_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_fmul_32ns_32ns_32_4_max_dsp_U1/synth_top_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dadd_64ns_64ns_64_5_full_dsp_U30/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dadd_64ns_64ns_64_5_full_dsp_U30/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dadd_64ns_64ns_64_5_full_dsp_U30/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dmul_64ns_64ns_64_6_max_dsp_U31/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dmul_64ns_64ns_64_6_max_dsp_U31/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP input A is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dmul_64ns_64ns_64_6_max_dsp_U31/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/synth_top_dmul_64ns_64ns_64_6_max_dsp_U31/synth_top_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dadd_64ns_64ns_64_5_full_dsp_U4/synth_top_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_Fr/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/g_Fr_other.i_calculate_e2zm1/dsp.one.dsp48e1_add/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_Xf/dsp.two.dsp48e1_add_hi/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_Xf/dsp.two.dsp48e1_add_lo/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_1.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_1.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[0].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_calculate_e2zmzm1/g_dp.i_polyomial/g_struct.multadd_2.madd/dsp_extra_fabric_adder.mult_with_add_low/use_prim.appDSP48[1].bppDSP48[1].use_dsp.use_dsp48e1.iDSP48E1 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[0].i_addsub/dsp.two.dsp48e1_add_hi/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[0].i_addsub/dsp.two.dsp48e1_add_lo/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[1].i_addsub/dsp.two.dsp48e1_add_hi/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_ln2/g_tables[1].i_addsub/dsp.two.dsp48e1_add_lo/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_recip_ln2/g_tables[0].i_addsub/dsp.one.dsp48e1_add/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_recip_ln2/g_tables[1].i_addsub/dsp.one.dsp48e1_add/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP smo_poly_system_i/synth_poly_top/inst/synth_top_writeResult_U0/grp_synth_top_classifyPoly_fu_383/synth_top_dexp_64ns_64ns_64_18_full_dsp_U7/synth_top_ap_dexp_16_full_dsp_64_u/U0/i_synth/EXP_OP.OP/i_ccm_recip_ln2/g_tables[2].i_addsub/dsp.one.dsp48e1_add/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+INFO: [Common 17-14] Message 'DRC 23-20' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 196 Warnings, 177 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./smo_poly_system_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:01:13 ; elapsed = 00:01:42 . Memory (MB): peak = 1721.598 ; gain = 340.672
+INFO: [Common 17-206] Exiting Vivado at Sat May 23 19:07:00 2015...

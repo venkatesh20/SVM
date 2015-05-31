@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="initialize.c" path="C:\Users\Owner\Desktop\SVM\SMO\smosynth\smosynth\initialize.c"/>
+    <originFiles name="classify.c" path="C:\Users\Owner\Desktop\SVM\SMO\smosynth\smosynth\classify.c"/>
+  </source>
+  <testbench>
+    <originFiles name="smoClassify.c" path="C:\Users\Owner\Desktop\SVM\SMO\smosynth\smosynth\smoClassify.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

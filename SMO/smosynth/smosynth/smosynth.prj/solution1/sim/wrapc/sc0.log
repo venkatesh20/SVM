@@ -1,0 +1,30 @@
+   Build using "C:/Xilinx/Vivado_HLS/2015.1/msys/bin/g++.exe"
+   Compiling apatb_synth_top.cpp
+   Compiling(apcc) classify.c_pre.c.tb.c
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Thu May 21 18:26:30 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) initialize.c_pre.c.tb.c
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Thu May 21 18:26:45 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) smoClassify.c_pre.c.tb.c
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Thu May 21 18:27:00 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Generating cosim.tv.exe

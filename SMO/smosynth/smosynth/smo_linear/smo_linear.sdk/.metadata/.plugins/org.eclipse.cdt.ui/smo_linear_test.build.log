@@ -1,0 +1,50 @@
+14:52:48 **** Auto Build of configuration Debug for project smo_linear_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../standalone_bsp_smo_linear/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'filter_or_bypass_input':
+../src/helloworld.c:105:23: error: 'I2S_STATUS_REG' undeclared (first use in this function)
+    u32Temp = Xil_In32(I2S_STATUS_REG);
+                       ^
+../src/helloworld.c:105:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:110:23: error: 'I2S_DATA_RX_L_REG' undeclared (first use in this function)
+   u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
+                       ^
+../src/helloworld.c:111:23: error: 'I2S_DATA_RX_R_REG' undeclared (first use in this function)
+   u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
+                       ^
+../src/helloworld.c:112:23: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function)
+   sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+                       ^
+../src/helloworld.c:117:4: warning: implicit declaration of function 'XFir_Set_x' [-Wimplicit-function-declaration]
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+    ^
+../src/helloworld.c:117:16: error: 'HlsFir_left' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_left, u32DataL >> 8);
+                ^
+../src/helloworld.c:118:16: error: 'HlsFir_right' undeclared (first use in this function)
+    XFir_Set_x(&HlsFir_right, u32DataR >> 8);
+                ^
+../src/helloworld.c:120:4: error: 'ResultAvailHlsFir_left' undeclared (first use in this function)
+    ResultAvailHlsFir_left = 0;
+    ^
+../src/helloworld.c:121:4: error: 'ResultAvailHlsFir_right' undeclared (first use in this function)
+    ResultAvailHlsFir_right = 0;
+    ^
+../src/helloworld.c:123:4: warning: implicit declaration of function 'XFir_Start' [-Wimplicit-function-declaration]
+    XFir_Start(&HlsFir_left);
+    ^
+../src/helloworld.c:127:7: warning: implicit declaration of function 'XFir_Get_y' [-Wimplicit-function-declaration]
+       u32DataL = XFir_Get_y(&HlsFir_left);
+       ^
+../src/helloworld.c:134:13: error: 'I2S_DATA_TX_L_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_L_REG, u32DataL);
+             ^
+../src/helloworld.c:135:13: error: 'I2S_DATA_TX_R_REG' undeclared (first use in this function)
+   Xil_Out32(I2S_DATA_TX_R_REG, u32DataR);
+             ^
+make: *** [src/helloworld.o] Error 1
+
+14:52:49 Build Finished (took 674ms)
+

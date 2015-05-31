@@ -1,0 +1,13 @@
+
+****** Webtalk v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_rbf/smo_rbf.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 63.004 ; gain = 0.035
+
+    while executing
+"webtalk_transmit -clientid 690820078 -regid "174112640_179741397_210594766_846" -xml C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_rbf/smo_rbf...."
+    (file "C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_rbf/smo_rbf.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Sat May 23 20:24:02 2015...

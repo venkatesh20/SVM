@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="classify.c" open="1" top="0" tabpos="2">
+		<Cursor position="7859" topLine="219" />
+	</File>
+	<File name="classify.h" open="1" top="0" tabpos="4">
+		<Cursor position="165" topLine="11" />
+	</File>
+	<File name="initialize.c" open="1" top="0" tabpos="3">
+		<Cursor position="1316" topLine="203" />
+	</File>
+	<File name="initialize.h" open="1" top="0" tabpos="5">
+		<Cursor position="1277" topLine="6" />
+	</File>
+	<File name="smoClassify.c" open="1" top="1" tabpos="1">
+		<Cursor position="7105" topLine="139" />
+	</File>
+</CodeBlocks_layout_file>

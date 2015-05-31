@@ -1,0 +1,87 @@
+   Compiling(apcc) ../../../../smoClassify.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Fri May 22 15:18:55 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution3/csim/build'
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) ../../../../classify.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Fri May 22 15:19:11 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution3/csim/build'
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) ../../../../initialize.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Owner' on host 'owner-pc' (Windows NT_amd64 version 6.1) on Fri May 22 15:19:26 -0400 2015
+            in directory 'C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smosynth.prj/solution3/csim/build'
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Generating csim.exe
+Reading model file. . .
+Finish reading model file
+Reading test data file . . .
+nonZeroFeature: EXAMPLEINDEX 1, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 2, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 3, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 4, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 5, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 6, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 7, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 8, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 9, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 10, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 11, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 12, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 13, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 14, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 15, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 16, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 17, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 18, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 19, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 20, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 21, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 22, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 23, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 24, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 25, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 26, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 27, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 28, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 29, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 30, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 31, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 32, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 33, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 34, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 35, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 36, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 37, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 38, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 39, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 40, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 41, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 42, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 43, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 44, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 45, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 46, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 47, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 48, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 49, VALUE 5
+nonZeroFeature: EXAMPLEINDEX 50, VALUE 5
+maxFeatureRead 48, maxFeature 50
+Finish reading test data file
+Kernel type 2
+Start classifying . . .
+Finished classifying.
+Classification is completed
+RETURN VALUE 0
+Test passed 0!
+@I [SIM-1] CSim done with 0 errors.

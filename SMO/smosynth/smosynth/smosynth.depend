@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1433028595 source:c:\users\owner\desktop\svm\smo\smosynth\smosynth\initialize.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"initialize.h"
+	"classify.h"
+
+1433025477 c:\users\owner\desktop\svm\smo\smosynth\smosynth\initialize.h
+	<stdio.h>
+
+1433028654 c:\users\owner\desktop\svm\smo\smosynth\smosynth\classify.h
+	"initialize.h"
+
+1433030196 source:c:\users\owner\desktop\svm\smo\smosynth\smosynth\smoclassify.c
+	<stdio.h>
+	<stdlib.h>
+	"initialize.h"
+
+1433029438 source:c:\users\owner\desktop\svm\smo\smosynth\smosynth\classify.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"classify.h"
+	"initialize.h"
+

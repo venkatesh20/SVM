@@ -1,0 +1,132 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="DATAFLOW"/>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="example" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="sv" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="4"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="wtDotProduct" label="wtDotProduct_while" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="50"/>
+            </pragma>
+        </directive>
+        <directive functionName="classifyLinear" label="LINEAR_FOR_LOOP" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="50"/>
+            </pragma>
+        </directive>
+        <directive functionName="classifyPoly" label="POLY_INIT_FOR_LOOP" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="50"/>
+            </pragma>
+        </directive>
+        <directive functionName="classifyPoly" label="POLY_OUTER_FOR_LOOP" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="50"/>
+            </pragma>
+        </directive>
+        <directive functionName="classifyPoly" label="POLY_INNER_FOR_LOOP" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="1"/>
+                <option name="max" value="50"/>
+            </pragma>
+        </directive>
+        <directive functionName="dotProduct" label="dotProduct_while" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="0"/>
+                <option name="max" value="49"/>
+            </pragma>
+        </directive>
+        <directive functionName="dotProduct" label="" functionLabel="">
+            <pragma name="INLINE"/>
+        </directive>
+        <directive functionName="classifyPoly" label="POLY_INIT_FOR_LOOP" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="classifyPoly" label="POLY_INNER_FOR_LOOP" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="example" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="sv" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="lambda" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="svNonZeroFeature" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="nonZeroFeature" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="weight" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="output" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="kernelType" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="synth_top" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="return" positionalBoolean="4"/>
+                <option name="bundle" value="smo_io"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

@@ -1,0 +1,8 @@
+13:24:40 INFO  : Processing command line option -hwspec C:/Users/Owner/Desktop/SVM/SMO/smosynth/smosynth/smo_linear/smo_linear.sdk/smo_linear_system_wrapper.hdf.
+13:24:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:24:53 INFO  : XSDB server has started successfully.
+13:26:07 INFO  : BSP Project P/standalone_bsp_smo_linear has been successfully migrated.
+13:54:41 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Owner\Desktop\SVM\SMO\smosynth\smosynth\smo_linear\smo_linear.sdk\smo_linear_test\Debug\smo_linear_test.elf
+13:56:12 INFO  : Successfully generated C:\Users\Owner\Desktop\SVM\SMO\smosynth\smosynth\smo_linear\smo_linear.sdk\smo_linear_test\src\lscript.ld.
+13:56:12 INFO  : Applying linker script to all configurations of project smo_linear_test.
+13:56:12 INFO  : Setting rebuild state to true for all configurations of project smo_linear_test.
