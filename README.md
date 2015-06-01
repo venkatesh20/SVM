@@ -34,11 +34,17 @@ This is a repository containing the code and synthesis results for SVM's SMO alg
  2. SMO/smosynth/smosynth
  This is the synthesized version of the classifier for all of the three kernels above. The file paths have been hardcoded in smoClassify.c to aid in synthesis.
  
- 3. SMO/smosynth/smosynth/smosynth.prj
- This directory contains all the verilog files produced by synthesis, and all results (C/RTL cosimulation, exporting as IP-XACT adapter,
- placement and routing, implementation and bitstream generation) for all three kernels specified above. Vivado (2015.1) and Vivado HLS
- (2015.1) was used for this.
- 
+ 3. SMO/smosynth/smosynth/
+    3.1 smo_linear:
+     This directory contains all the verilog files produced by synthesis, and all results (C/RTL cosimulation, exporting as        IP-XACT adapter) for the linear kernel. 
+   3.2 smo_poly:
+     This directory contains all the verilog files produced by synthesis, and all results (C/RTL cosimulation, exporting as        IP-XACT adapter) for the polynomial kernel.    
+    3.3 smo_rbf:
+     This directory contains all the verilog files produced by synthesis, and all results (C/RTL cosimulation, exporting as        IP-XACT adapter) for the rbf kernel.
+    3.4 smosynth.prj
+      This directory contains all the verilog files from elaboration, synthesis, implementation and bitstream generation of        the above IP's with the Zynq 7000 SOC.
+ In all cases, Vivado 2015.1 and Vivado HLS 2015.1 was used.
+
  4. Data_mining_pres:
  This contains the PowerPoint presentation which was used on April 16th, 2015.
  
